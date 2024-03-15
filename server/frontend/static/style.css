@@ -124,3 +124,19 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+.contact-container{
+    display:flex;
+    padding: 25px;
+ 
+ 
+}
+.contact {
+    color: blue;
+    text-align: center;
+}
+.contact-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
