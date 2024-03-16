@@ -28,8 +28,8 @@ SECRET_KEY =\
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'https://danielhildeb-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'] # pylint: disable=line-too-long
-CSRF_TRUSTED_ORIGINS = ['https://danielhildeb-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'] # pylint: disable=line-too-long
+ALLOWED_HOSTS = ['localhost', 'https://danielhildeb-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
+CSRF_TRUSTED_ORIGINS = ['https://danielhildeb-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
@@ -94,7 +94,7 @@ DATABASES = {
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME':
-        'django.contrib.auth.password_validation.UserAttributeSimilarityValidator', # pylint: disable=line-too-long
+        'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
     {
         'NAME':
